@@ -13,6 +13,10 @@
 		9699BA4424DD157500671DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9699BA4324DD157500671DE5 /* Assets.xcassets */; };
 		9699BA4724DD157500671DE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9699BA4624DD157500671DE5 /* Preview Assets.xcassets */; };
 		9699BA4A24DD157500671DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9699BA4824DD157500671DE5 /* LaunchScreen.storyboard */; };
+		9699BA5524DD15EB00671DE5 /* Form-Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699BA5424DD15EB00671DE5 /* Form-Sections.swift */; };
+		9699BA5724DD184900671DE5 /* Use-State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699BA5624DD184900671DE5 /* Use-State.swift */; };
+		9699BA5924DD1B3500671DE5 /* ForEach-Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699BA5824DD1B3500671DE5 /* ForEach-Loop.swift */; };
+		9699BA5B24DD1D1F00671DE5 /* Tip-App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699BA5A24DD1D1F00671DE5 /* Tip-App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		9699BA4624DD157500671DE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9699BA4924DD157500671DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9699BA4B24DD157500671DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9699BA5424DD15EB00671DE5 /* Form-Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Form-Sections.swift"; sourceTree = "<group>"; };
+		9699BA5624DD184900671DE5 /* Use-State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Use-State.swift"; sourceTree = "<group>"; };
+		9699BA5824DD1B3500671DE5 /* ForEach-Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForEach-Loop.swift"; sourceTree = "<group>"; };
+		9699BA5A24DD1D1F00671DE5 /* Tip-App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tip-App.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		9699BA3C24DD157000671DE5 /* LessonApp */ = {
 			isa = PBXGroup;
 			children = (
+				9699BA5124DD15AB00671DE5 /* Views */,
 				9699BA3D24DD157000671DE5 /* AppDelegate.swift */,
 				9699BA3F24DD157000671DE5 /* SceneDelegate.swift */,
 				9699BA4124DD157000671DE5 /* ContentView.swift */,
@@ -73,6 +82,17 @@
 				9699BA4624DD157500671DE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9699BA5124DD15AB00671DE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9699BA5424DD15EB00671DE5 /* Form-Sections.swift */,
+				9699BA5624DD184900671DE5 /* Use-State.swift */,
+				9699BA5824DD1B3500671DE5 /* ForEach-Loop.swift */,
+				9699BA5A24DD1D1F00671DE5 /* Tip-App.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +169,10 @@
 				9699BA3E24DD157000671DE5 /* AppDelegate.swift in Sources */,
 				9699BA4024DD157000671DE5 /* SceneDelegate.swift in Sources */,
 				9699BA4224DD157000671DE5 /* ContentView.swift in Sources */,
+				9699BA5524DD15EB00671DE5 /* Form-Sections.swift in Sources */,
+				9699BA5B24DD1D1F00671DE5 /* Tip-App.swift in Sources */,
+				9699BA5924DD1B3500671DE5 /* ForEach-Loop.swift in Sources */,
+				9699BA5724DD184900671DE5 /* Use-State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
