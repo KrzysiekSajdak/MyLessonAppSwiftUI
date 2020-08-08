@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9609633124DDD8A8004B2CDF /* Picker-Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609633024DDD8A8004B2CDF /* Picker-Selector.swift */; };
+		9609633324DE625C004B2CDF /* ColorBackground-Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609633224DE625C004B2CDF /* ColorBackground-Gradients.swift */; };
+		9609633524DE6904004B2CDF /* Custom-Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609633424DE6904004B2CDF /* Custom-Button.swift */; };
+		9609633724DE6AB9004B2CDF /* Show-Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609633624DE6AB9004B2CDF /* Show-Alert.swift */; };
+		9609633924DE700A004B2CDF /* Images-Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609633824DE700A004B2CDF /* Images-Layout.swift */; };
 		9699BA3E24DD157000671DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699BA3D24DD157000671DE5 /* AppDelegate.swift */; };
 		9699BA4024DD157000671DE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699BA3F24DD157000671DE5 /* SceneDelegate.swift */; };
 		9699BA4224DD157000671DE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699BA4124DD157000671DE5 /* ContentView.swift */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9609633024DDD8A8004B2CDF /* Picker-Selector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Picker-Selector.swift"; sourceTree = "<group>"; };
+		9609633224DE625C004B2CDF /* ColorBackground-Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorBackground-Gradients.swift"; sourceTree = "<group>"; };
+		9609633424DE6904004B2CDF /* Custom-Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom-Button.swift"; sourceTree = "<group>"; };
+		9609633624DE6AB9004B2CDF /* Show-Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show-Alert.swift"; sourceTree = "<group>"; };
+		9609633824DE700A004B2CDF /* Images-Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images-Layout.swift"; sourceTree = "<group>"; };
 		9699BA3A24DD157000671DE5 /* LessonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9699BA3D24DD157000671DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9699BA3F24DD157000671DE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +101,11 @@
 				9699BA5624DD184900671DE5 /* Use-State.swift */,
 				9699BA5824DD1B3500671DE5 /* ForEach-Loop.swift */,
 				9699BA5A24DD1D1F00671DE5 /* Tip-App.swift */,
+				9609633024DDD8A8004B2CDF /* Picker-Selector.swift */,
+				9609633224DE625C004B2CDF /* ColorBackground-Gradients.swift */,
+				9609633424DE6904004B2CDF /* Custom-Button.swift */,
+				9609633624DE6AB9004B2CDF /* Show-Alert.swift */,
+				9609633824DE700A004B2CDF /* Images-Layout.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,10 +183,15 @@
 			files = (
 				9699BA3E24DD157000671DE5 /* AppDelegate.swift in Sources */,
 				9699BA4024DD157000671DE5 /* SceneDelegate.swift in Sources */,
+				9609633524DE6904004B2CDF /* Custom-Button.swift in Sources */,
 				9699BA4224DD157000671DE5 /* ContentView.swift in Sources */,
 				9699BA5524DD15EB00671DE5 /* Form-Sections.swift in Sources */,
+				9609633724DE6AB9004B2CDF /* Show-Alert.swift in Sources */,
+				9609633124DDD8A8004B2CDF /* Picker-Selector.swift in Sources */,
+				9609633924DE700A004B2CDF /* Images-Layout.swift in Sources */,
 				9699BA5B24DD1D1F00671DE5 /* Tip-App.swift in Sources */,
 				9699BA5924DD1B3500671DE5 /* ForEach-Loop.swift in Sources */,
+				9609633324DE625C004B2CDF /* ColorBackground-Gradients.swift in Sources */,
 				9699BA5724DD184900671DE5 /* Use-State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

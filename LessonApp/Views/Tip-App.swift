@@ -16,6 +16,18 @@ struct Tip_App: View {
     
     let tipPercentages = [10, 15, 20, 25, 0]
     
+    var totalPerPerson: Double {
+        let peopleCount = Double(numberOfPeople + 2)
+        let tipSelection = Double(tipPercentages[tipPercentage])
+        let orderAmount = Double(checkAmount) ?? 0
+        
+        let tipValue = orderAmount / 100 * tipSelection
+        let grandTotal = orderAmount + tipValue
+        let amountPerPerson = grandTotal / peopleCount
+        
+        return amountPerPerson
+    }
+    
     var body: some View {
         NavigationView {
             Form {
@@ -27,9 +39,6 @@ struct Tip_App: View {
                             Text("\($0) people")
                         }}
                 }
-                Section {
-                    Text("$\(checkAmount)")
-                }
                 Section(header: Text("How much tip do you want to leave?")) {
                     
                     Picker("Tip percentage", selection: $tipPercentage) {
@@ -38,13 +47,31 @@ struct Tip_App: View {
                         }
                     }.pickerStyle(SegmentedPickerStyle())
                 }
+                Section {
+                    Text("$\(totalPerPerson, specifier: "%.2f")")
+                }
+                
             }.navigationBarTitle("Tip app")
+                .onTapGesture {
+                   self.endEditing()
+            }
+            //close keypad/keyboard on scroll
+            //            .gesture(DragGesture().onChanged{_ in UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)})
         }
+    }
+    private func endEditing() {
+        UIApplication.shared.endEditing()
     }
 }
 
 struct Tip_App_Previews: PreviewProvider {
     static var previews: some View {
         Tip_App()
+    }
+}
+
+extension UIApplication {
+    func endEditing() {
+        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
