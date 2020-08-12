@@ -10,13 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State var search: String = ""
+    @State var icon: CGFloat  = 25
+    @State var font: CGFloat = 30
+    
     var body: some View {
-        ColorBackground_Gradients()
+        Grid_Stack()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}

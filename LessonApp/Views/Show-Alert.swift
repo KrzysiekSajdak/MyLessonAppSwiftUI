@@ -6,6 +6,7 @@
 //  Copyright © 2020 Krzysztof  Sajdak . All rights reserved.
 //
 
+// MARK: - Alert example
 import SwiftUI
 
 struct Show_Alert: View {
