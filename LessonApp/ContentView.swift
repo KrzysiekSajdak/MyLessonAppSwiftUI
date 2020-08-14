@@ -14,8 +14,10 @@ struct ContentView: View {
     @State var icon: CGFloat  = 25
     @State var font: CGFloat = 30
     
+    @State var date = Date()
+    
     var body: some View {
-        Grid_Stack()
+        CustomAppBar(backgroundColour: .secondarySystemFill, title: "Title", opacity: 0.8)
     }
 }
 

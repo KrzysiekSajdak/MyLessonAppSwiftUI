@@ -25,6 +25,9 @@
 		9699BA5B24DD1D1F00671DE5 /* Tip-App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699BA5A24DD1D1F00671DE5 /* Tip-App.swift */; };
 		96BB79F124E3A0970061F60E /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BB79F024E3A0970061F60E /* CustomModifiers.swift */; };
 		96BB79F324E3A4A30061F60E /* Grid-Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BB79F224E3A4A30061F60E /* Grid-Stack.swift */; };
+		96C06A9224E52DB6003C131D /* StepperInAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C06A9124E52DB5003C131D /* StepperInAction.swift */; };
+		96C06A9424E53047003C131D /* DatePickerInAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C06A9324E53047003C131D /* DatePickerInAction.swift */; };
+		96C06A9624E64998003C131D /* CustomAppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C06A9524E64998003C131D /* CustomAppBar.swift */; };
 		96F80A5724E0FD640019539A /* Background-Colour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F80A5624E0FD640019539A /* Background-Colour.swift */; };
 		96F80A5924E1054D0019539A /* Show-Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F80A5824E1054D0019539A /* Show-Map.swift */; };
 		96F80A5B24E108C60019539A /* TabView-MultiplePages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F80A5A24E108C60019539A /* TabView-MultiplePages.swift */; };
@@ -53,6 +56,9 @@
 		9699BA5A24DD1D1F00671DE5 /* Tip-App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tip-App.swift"; sourceTree = "<group>"; };
 		96BB79F024E3A0970061F60E /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		96BB79F224E3A4A30061F60E /* Grid-Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Grid-Stack.swift"; sourceTree = "<group>"; };
+		96C06A9124E52DB5003C131D /* StepperInAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperInAction.swift; sourceTree = "<group>"; };
+		96C06A9324E53047003C131D /* DatePickerInAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerInAction.swift; sourceTree = "<group>"; };
+		96C06A9524E64998003C131D /* CustomAppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppBar.swift; sourceTree = "<group>"; };
 		96F80A5624E0FD640019539A /* Background-Colour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Background-Colour.swift"; sourceTree = "<group>"; };
 		96F80A5824E1054D0019539A /* Show-Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Show-Map.swift"; sourceTree = "<group>"; };
 		96F80A5A24E108C60019539A /* TabView-MultiplePages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabView-MultiplePages.swift"; sourceTree = "<group>"; };
@@ -130,6 +136,9 @@
 				96F80A5E24E110770019539A /* NameList.swift */,
 				96BB79F024E3A0970061F60E /* CustomModifiers.swift */,
 				96BB79F224E3A4A30061F60E /* Grid-Stack.swift */,
+				96C06A9124E52DB5003C131D /* StepperInAction.swift */,
+				96C06A9324E53047003C131D /* DatePickerInAction.swift */,
+				96C06A9524E64998003C131D /* CustomAppBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,10 +238,13 @@
 				96BB79F124E3A0970061F60E /* CustomModifiers.swift in Sources */,
 				96F80A5F24E110770019539A /* NameList.swift in Sources */,
 				9609633324DE625C004B2CDF /* ColorBackground-Gradients.swift in Sources */,
+				96C06A9624E64998003C131D /* CustomAppBar.swift in Sources */,
+				96C06A9424E53047003C131D /* DatePickerInAction.swift in Sources */,
 				9699BA5724DD184900671DE5 /* Use-State.swift in Sources */,
 				9609633B24DEC89A004B2CDF /* SearchTextField.swift in Sources */,
 				96F80A5724E0FD640019539A /* Background-Colour.swift in Sources */,
 				96F80A5924E1054D0019539A /* Show-Map.swift in Sources */,
+				96C06A9224E52DB6003C131D /* StepperInAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
