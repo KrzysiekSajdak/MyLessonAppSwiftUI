@@ -17,7 +17,7 @@ struct ContentView: View {
     @State var date = Date()
     
     var body: some View {
-        CustomAppBar(backgroundColour: .secondarySystemFill, title: "Title", opacity: 0.8)
+        WordScramble()
     }
 }
 
